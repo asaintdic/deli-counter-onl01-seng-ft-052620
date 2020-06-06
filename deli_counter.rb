@@ -13,9 +13,8 @@ def line(katz_deli)
   end
 end
 line(katz_deli)
-
-def take_a_number(katz_deli, name)
-  katz_deli << "#{name}"
+def take_a_number(array, name)
+  array  << name
   katz_deli.each_with_index do |names, index| puts "Welcome, #{name}. You are number #{index + 1} in line."
   end
 end 
